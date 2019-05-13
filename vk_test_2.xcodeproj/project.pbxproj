@@ -15,7 +15,6 @@
 		5DB024E72283184C008B2AB4 /* vk_test_2Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DB024E62283184C008B2AB4 /* vk_test_2Tests.swift */; };
 		5DB024F22283184C008B2AB4 /* vk_test_2UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DB024F12283184C008B2AB4 /* vk_test_2UITests.swift */; };
 		5DB0250122831B51008B2AB4 /* CustomObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 5DB0250022831B51008B2AB4 /* CustomObject.m */; };
-		5DB025042283439E008B2AB4 /* .gitignore.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5DB025032283439E008B2AB4 /* .gitignore.xib */; };
 		D1B4CBB083B95C8F6B3689D0 /* Pods_vk_test_2.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2305CBE9FC3A8DF33CF30A34 /* Pods_vk_test_2.framework */; };
 /* End PBXBuildFile section */
 
@@ -54,7 +53,6 @@
 		5DB024FF22831B50008B2AB4 /* vk_test_2-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "vk_test_2-Bridging-Header.h"; sourceTree = "<group>"; };
 		5DB0250022831B51008B2AB4 /* CustomObject.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CustomObject.m; sourceTree = "<group>"; };
 		5DB0250222831B62008B2AB4 /* CustomObject.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CustomObject.h; sourceTree = "<group>"; };
-		5DB025032283439E008B2AB4 /* .gitignore.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = .gitignore.xib; sourceTree = "<group>"; };
 		65C06F903E88FA182BF9CA8A /* Pods-vk_test_2.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-vk_test_2.release.xcconfig"; path = "Target Support Files/Pods-vk_test_2/Pods-vk_test_2.release.xcconfig"; sourceTree = "<group>"; };
 		6FF5BE6C1292BE68DBAAF68D /* Pods-vk_test_2.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-vk_test_2.debug.xcconfig"; path = "Target Support Files/Pods-vk_test_2/Pods-vk_test_2.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -88,7 +86,6 @@
 		5DB024C522831842008B2AB4 = {
 			isa = PBXGroup;
 			children = (
-				5DB025032283439E008B2AB4 /* .gitignore.xib */,
 				5DB024D022831842008B2AB4 /* vk_test_2 */,
 				5DB024E52283184C008B2AB4 /* vk_test_2Tests */,
 				5DB024F02283184C008B2AB4 /* vk_test_2UITests */,
@@ -267,7 +264,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				5DB024DC2283184C008B2AB4 /* LaunchScreen.storyboard in Resources */,
-				5DB025042283439E008B2AB4 /* .gitignore.xib in Resources */,
 				5DB024D92283184C008B2AB4 /* Assets.xcassets in Resources */,
 				5DB024D722831842008B2AB4 /* Main.storyboard in Resources */,
 			);

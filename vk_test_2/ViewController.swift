@@ -16,6 +16,9 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         sdkInstance = VKSdk.initialize(withAppId: "6500292")
+        sdkInstance.register(self)
+        sdkInstance.uiDelegate = self
+//        VKSdk.register(self)
     }
     
     @IBAction func tUp(_ sender: Any) {
@@ -25,8 +28,8 @@ class ViewController: UIViewController {
         print(instance.someProperty)
         
         print("Version: " + sdkInstance.apiVersion)
-        sdkInstance.register(self as! VKSdkDelegate)
-        sdkInstance.uiDelegate = self as! VKSdkUIDelegate
+//        sdkInstance.register(self)
+//        sdkInstance.uiDelegate = self
         
         VKSdk.authorize(["friends", "offline", "email"]);
     }
@@ -39,7 +42,7 @@ extension ViewController: VKSdkDelegate, VKSdkUIDelegate {
         
         if (self.presentedViewController != nil) {
             self.dismiss(animated: true, completion: {
-                print("hide current modal controller if presents")
+              	  print("hide current modal controller if presents")
                 self.present(controller, animated: true, completion: {
                     print("SFSafariViewController opened to login through a browser")
                 })
